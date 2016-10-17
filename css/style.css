@@ -1,0 +1,132 @@
+body {
+    font-family: Verdana;
+}
+
+.navbar-brand {
+    margin-left: 220px;
+}
+
+.jumbo {
+    background-image: url("/images/main_bg.png");
+    height: 880px;
+}
+
+.jumbotron, .navbar-default {
+    background: transparent;
+    border: none;
+}
+
+.jumbotron p.find {
+    color: #ebe2de;
+    font-size: 36px;
+
+}
+
+.jumbotron h1 {
+    color: white;
+    font-size: 100px;
+}
+
+.jumbotron {
+    text-align: center;
+    background: transparent;
+    color: #fff;
+}
+
+a.btn-primary {
+    border: 2px solid #fff;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    color: white;
+    background-color: transparent;
+    font-size: 18px;
+}
+
+a.btn-primary:hover {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.iconS.col-md-4 {
+    min-height: 10px;
+    padding-left: 60px;
+    padding-right: 40px;
+    position: relative;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    font-size: 14px;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #ff792a;
+}
+
+.iconS {
+    padding-top: 100px;
+    text-align: center;
+    background-color: white;
+
+}
+
+.iconS p::after {
+    border-top: 2px solid red;
+}
+
+.main {
+    background-color: #f7f7f7;
+    margin-top: 50px;
+}
+
+.main h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.main p {
+    font-size: 16px;
+
+}
+
+.row {
+    margin-top: 110px;
+}
+
+.main a img {
+    margin-top: 33px;
+    padding-left: 25px;
+}
+
+.avatar img {
+    border-radius: 50px ;
+    border: solid 2px #948a93;
+}
+
+.review {
+    background: url("../images/carusel_bg.png") top center no-repeat;
+}
+
+.carousel {
+    height: 460px;
+}
+
+.review .carousel .item {
+    height: 350px;
+}
+
+footer {
+    background-color: white;
+    padding-bottom: 100px;
+}
+footer .col-md-4{
+    padding-bottom: 5px;
+}
+.footerh {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 100px;
+    text-align: center;
+   margin-bottom: -50px;
+}
